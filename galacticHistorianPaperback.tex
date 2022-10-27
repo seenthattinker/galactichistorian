@@ -1,0 +1,266 @@
+\documentclass[letterpaper,10.5pt,twoside,onecolumn,openany]{book}
+\usepackage[margin=1in, paperwidth=6in, paperheight=9in]{geometry}
+\usepackage{CormorantGaramond}
+\linespread{1.25}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\pagestyle{myheadings}
+\raggedbottom
+\usepackage{multicol}
+\usepackage{xparse}
+\usepackage{lipsum}
+\usepackage{setspace}
+\let\oldsection\section
+\RenewDocumentCommand{\section}{s o m}{%
+	\IfBooleanTF{#1}
+	{% \section*
+		\oldsection*{#3}% Insert \section*{...}
+		\addcontentsline{toc}{section}{\protect\numberline{}#3}% Add ToC entry
+	}{% \section
+		\IfNoValueTF{#2}
+		{\oldsection{#3}}% \section{...}
+		{\oldsection[#2]{#3}}% \section[..]{...}
+	}%
+}
+
+
+\begin{document}
+	
+	
+	
+	\newpage
+	\thispagestyle{empty}
+	
+	
+	\begin{center}
+		\huge{\textsc{The Galactic Historian}}\\
+		\large{\textsc{The World According to Andrew Bartzis}}
+	\end{center}
+
+	\vspace{15mm}
+
+	
+	\begin{center}
+		\includegraphics[width=10cm]{../../images/qDOPQs}
+	\end{center}
+	
+	
+	
+	
+	
+	\newpage
+	\thispagestyle{empty}
+	\hrule
+	
+	\begin{center}
+		
+		
+		
+		\large{The Galactic Historian\\
+			The World According to Andrew Bartzis}
+		
+	\end{center}
+	
+	\hrule
+	
+	\begin{center}
+		\includegraphics[width=2cm]{../../images/Skype_Picture_2021_03_15T07_43_11_650Z}
+	\end{center}
+	
+	
+	
+	\begin{center}
+		\noindent
+		\small{Copyright 2021  \copyright Andrew Bartzis. All rights reserved.
+			No part of this publication, text or illustrations, may be reproduced, stored in a retrieval system or transmitted, in any form or by any means, without the prior written consent of the publisher or a license from the author.}
+		
+		\textbf{Paperback ISBN: to be supplied}
+		
+		
+		
+		
+		\small{Illustrations Copyright 2021  \copyright Martina Grubmueller.}
+		
+	\end{center}
+	
+	\vspace{5mm}
+	
+	
+	\begin{center}
+		\includegraphics[width=8cm]{../../images/logoMerge}
+	\end{center}
+	
+	\tableofcontents
+	
+	\newpage
+	\thispagestyle{empty}
+	\hrule
+	
+	\vspace{30mm}
+	\begin{center}
+		\includegraphics[width=10cm]{../../images/cyXSFZ}
+	\end{center}
+	
+	
+	\newpage
+	\thispagestyle{empty}
+	\hrule
+	
+	\vspace{40mm}
+	
+	\begin{center}
+		I celebrate myself, and sing myself,\\
+		And what I assume you shall assume,\\
+		For every atom belonging to me as good belongs to you.\\
+		\vspace{5mm}
+		
+		Walt Whitman --- \textit{Leaves of Grass}
+		
+		
+	\end{center}
+	
+	\vspace{5mm}
+	\begin{center}
+		
+		Time is a good story teller.
+		
+		
+		Celtic proverb
+		
+	\end{center}
+	
+	\newpage
+	\thispagestyle{empty}
+	
+	\begin{center}
+		\huge{Foreward}
+	\end{center}
+	\hrule
+
+\input{forewardPaprback.tex}
+
+\part{Context}
+
+\thispagestyle{empty}
+
+	\hrule
+
+\vspace{30mm}
+
+\begin{center}
+	\includegraphics[width=10cm]{../../images/wAFPQn}
+\end{center}
+
+
+\chapter{Reality}
+\input{chapter1.tex}
+\chapter{Humanity}
+\input{chapter2.tex}
+
+
+
+\part{Humanity and the Milky Way}
+
+\thispagestyle{empty}
+
+	\hrule
+
+\vspace{30mm}
+
+\begin{center}
+	\includegraphics[width=10cm]{../../images/VDeAvk}
+\end{center}
+
+
+\chapter{Self Mastery}
+\input{chapter3.tex}
+\chapter{Timeline Errata}
+\input{chapter4.tex}
+
+
+\part{End Game}
+
+\thispagestyle{empty}
+	\hrule
+
+\vspace{30mm}
+\begin{center}
+	\includegraphics[width=10cm]{../../images/mwUkKQ}
+\end{center}
+
+\chapter{Twenty-first Century}
+\input{chapter5.tex}
+\chapter{The Incredible Now}
+\input{chapter6.tex}
+
+\newpage
+
+\begin{center}
+	\huge{Afterword}
+\end{center}
+\hrule
+
+\input{afterword.tex}
+
+\newpage
+
+\thispagestyle{empty}
+
+\hrule
+
+\vspace{35mm}
+
+\begin{center}
+	\includegraphics[width=8cm]{../../images/Skype_Picture_2021_03_15T07_43_11_650Z}
+\end{center}
+
+\newpage
+
+\thispagestyle{empty}
+
+\begin{center}
+	
+\huge{About the Authors}
+
+
+	
+\end{center}
+
+\hrule
+
+\vspace{5mm}
+
+\noindent\textbf{{\large Andrew Bartzis}}
+
+\vspace{5mm}
+
+\singlespace
+\small{
+\noindent Andrew Bartzis is a transcendent teacher, Shaman and Reiki master with the rare ability of being able to access the Akashic Records of our planet and all that this universe encompasses at will. Also known as the Galactic Historian, he's able to read and interpret individual, cultural, global, and galactic histories --- past, present, and future --- with everyone who's eager to learn. As an Akashic reader and master healer for over a quarter century, his goal is to help the world around him by sharing information from this sacred neutral state of no-­time. By bringing forth the power of contract revocations, he helps individuals reclaim their sovereign free will and find their way to peace, joy and happiness.}
+\begin{center}
+\includegraphics[width=4cm]{../../images/andrew}
+\end{center}
+
+
+
+\vspace{5mm}
+
+\noindent\textbf{{\large Bruce MacDonald}}
+
+\vspace{5mm}
+
+\singlespace
+\small{
+\noindent
+Bruce MacDonald was born in Ottawa, Ontario. He has a journalism degree from Ryerson University in Toronto, Ontario. He is the co-author of \textit{Stardust Ranch: The Incredible True Story}. He works remotely as a technical writer in the fields of software and telecommunications from the Province of Limon, Costa Rica, where he lives on a small farm in the Talamanca Mountains with his wife, Rosemary.}
+
+
+	
+	
+\begin{center}
+	\includegraphics[width=3cm]{../../images/bruce}
+\end{center}
+
+
+
+\end{document}
